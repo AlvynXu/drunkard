@@ -1,0 +1,33 @@
+body {
+  background-color: #f1f1f1;
+  font-size: 16px;
+  color: #333333;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+div,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+img {
+  box-sizing: border-box;
+}
+
+input,textarea{
+  font-size: 16px;
+}
+
+.round {
+  border-radius: 5000px;
+}
+
+.radius {
+  border-radius: 6px;
+}
+
+@import "color.scss";
+@import "text.scss";
+@import "image.scss"
